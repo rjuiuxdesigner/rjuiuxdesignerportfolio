@@ -1,5 +1,6 @@
 import { useReveal } from '../hooks/useReveal';
 import Icon from './Icon';
+import aboutImg from '../assets/about-me.png';
 
 const traits = [
   { icon: 'clipboard', color: '#a371f7', bg: 'rgba(163,113,247,.12)', text: 'Engineering Background with UI/UX Certification' },
@@ -24,7 +25,7 @@ const About = () => {
           <div className="rv d1">
             <div style={{ width:'100%', aspectRatio:'1/1.05', borderRadius:14, background:'var(--bg-card)', border:'1px solid var(--border)', display:'flex', alignItems:'center', justifyContent:'center', overflow:'hidden' }}>
               <div style={{ display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', width:'100%', height:'100%', background:'linear-gradient(145deg,#161e2e,#0f1923)' }}>
-                <img src='src/Assets/About Me Section Image.png' style={{width: '200px'}}/>
+                <img src={aboutImg} style={{width: '200px'}}/>
               </div>
             </div>
             <div style={{ background:'var(--bg-card)', border:'1px solid var(--border)', borderRadius:12, padding:'14px 16px', marginTop:12, display:'flex', alignItems:'center', gap:12 }}>
