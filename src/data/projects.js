@@ -8,7 +8,7 @@ export const PROJECTS = [
     title: 'STORM II',
     client: 'Kirloskar Brothers',
     desc: 'Enterprise IoT dashboard for industrial pump monitoring and predictive maintenance',
-    tags: ['IoT', 'Dashboard', 'Enterprise'],
+    tags: ['IoT', 'Dashboard', 'Enterprise.'],
     platforms: ['Mobile', 'Web'],
     cat: ['enterprise'],
     accentColor: '#4493f8',
