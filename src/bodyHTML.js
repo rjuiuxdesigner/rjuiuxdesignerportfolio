@@ -54,7 +54,7 @@ const bodyHTML = `<!-- CURSOR -->
   </h1>
   <p class="hero-sub">3.5+ years of experience crafting user-centered designs for enterprise, CRM, healthcare, SaaS, and agri-tech products. Transforming complex problems into intuitive, delightful solutions.</p>
   <div class="hero-btns">
-    <a class="btn-primary" href="#projects" onclick="return false;">View Projects →</a>
+    <a class="btn-primary" href="#projects" onclick="goHome();scrollTo('projects')";return false;">View Projects →</a>
     <a class="btn-secondary" href="https://docs.google.com/document/d/1puyWoXale6_cHj8TmU9U9OxoKfKw-DKf0CwRwCuLzW8/edit?tab=t.0" target="_blank" rel="noopener noreferrer"><svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="display:inline;vertical-align:middle;margin-right:6px;"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>Download Resume</a>
   </div>
     <div class="hero-contacts">

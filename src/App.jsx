@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react'
 import bodyHTML from './bodyHTML.js'
 import './styles.css'
+import Chart from 'chart.js/auto'
 
 export default function App() {
   const ready = useRef(false)
@@ -8,6 +9,9 @@ export default function App() {
   useEffect(() => {
     if (ready.current) return
     ready.current = true
+
+    // Expose Chart.js for the non-bundled /public/portfolio.js script.
+    window.Chart = Chart
 
     // ── Step 1: Inject the full portfolio HTML into #root ──────────────────
     const root = document.getElementById('root')
